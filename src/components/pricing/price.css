@@ -1,0 +1,140 @@
+.pricing-container{
+    width: 100%;
+    padding: 2rem;
+}
+.pricing-container h3{
+    width: 100%;
+    padding: .8rem 0;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(58, 179, 68);
+}
+.pricing-container .prices-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.prices-container .starter-container{
+    background: rgb(210, 241, 216);
+}
+.pricing-container .prices-container .price{
+    width: 30%;
+    padding: 1.2rem;
+    border-radius: .8rem;
+    border: 2px solid rgb(216, 213, 213);
+    cursor: pointer;
+    transition: 3s all;
+}
+.pricing-container .prices-container .price:hover{
+    box-shadow: 5px 10px 5px #888888;
+}
+.pricing-container .prices-container .price h3{
+    font-size: 1.8rem;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(216, 213, 213);
+}
+.pricing-container .prices-container .price #free{
+    color: #FFD43B;
+}
+.pricing-container .prices-container .price .free{
+    color: #FFD43B;
+}
+.pricing-container .prices-container .price #starter{
+    color: #63E6BE;
+}
+.pricing-container .prices-container .price  .starter{
+    color: #63E6BE;
+}
+.pricing-container .prices-container .price #team{
+    color: #74C0FC;
+}
+.pricing-container .prices-container .price .team{
+    color: #74C0FC;
+}
+.prices-container .price h4{
+    padding: .6rem 0;
+    font-size: 1.4rem;
+    color: rgb(58, 179, 68);
+}
+.prices-container .price .amount{
+    margin: .5rem 0;
+    padding: .6rem 0;
+}
+.prices-container .price .amount p{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.prices-container .price .amount span{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.prices-container .price .plan-details p, ul{
+    font-size: 1.0rem;
+    list-style: none;
+}
+.prices-container .price .plan-details li{
+    padding: .6rem 0;
+    font-size: 1.0rem;
+}
+.prices-container .price .plan-details .check-icon{
+    margin-right: .6rem;
+}
+.prices-container .price .choose-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prices-container .price .choose-btn input{
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1.2rem;
+    margin: .6rem 0;
+    border-radius: .8rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.prices-container .choose-btn #free-Btn{
+    color: white;
+    background: #FFD43B;
+}
+.prices-container .choose-btn #free-Btn:hover{
+    color: #FFD43B;
+    background: white;
+    border: 4px solid #FFD43B;
+}
+
+.prices-container .choose-btn #starter-Btn{
+    color: white;
+    background: #63E6BE;
+}
+.prices-container .choose-btn #starter-Btn:hover{
+    color: #63E6BE;
+    background: white;
+    border: 4px solid #63E6BE;
+}
+
+.prices-container .choose-btn #team-Btn{
+    color: white;
+    background: #74C0FC;
+}
+.prices-container .choose-btn #team-Btn:hover{
+    color: #74C0FC;
+    background: white;
+    border: 4px solid #74C0FC;
+}
+/* Responsiveness of the pricing section */
+@media (max-width: 768px){
+    .pricing-container .prices-container{
+        display: block;
+    }
+    .prices-container .starter-container{
+        margin: 1.0rem 0;
+    }
+    .pricing-container .prices-container .price{
+        width: 100%;
+    }
+}

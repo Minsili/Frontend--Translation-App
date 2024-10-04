@@ -1,0 +1,90 @@
+.feature-container{
+    width: 100%;
+    background: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-container .feature-header{
+    width: 40%;
+    padding: 2rem .8rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.feature-container .feature-header h3{
+    color: rgb(58, 179, 68);
+}
+.feature-container .feature-details{
+    width: 60%;
+    padding: .8rem;
+    display: flex;
+}
+.feature-container .feature-details .part1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-container .feature-details .part1 .box{
+    width: 90%;
+    padding: .8rem;
+    border-radius: .8rem;
+    border: 2px solid rgb(221, 218, 218);
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 3s all;
+}
+.feature-container .feature-details .part1 .box:hover{
+    box-shadow: 5px 10px 5px #888888;
+}
+.feature-container .feature-details .part2{
+    width: 50%;
+    display: block;
+    justify-content: space-evenly;
+}
+.feature-container .feature-details .part2 .box{
+    width: 90%;
+    padding: .8rem;
+    margin-bottom: 1.2rem;
+    border-radius: .8rem;
+    border: 2px solid rgb(221, 218, 218);
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 3s all;
+}
+.feature-container .feature-details .part2 .box:hover{
+    box-shadow: 5px 10px 5px #888888;
+}
+/* Responsiveness of the feature section */
+@media (max-width: 768px){
+    .feature-container{
+        display: block;
+    }
+    .feature-container .feature-header{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .feature-container .feature-header h3{
+        font-size: 1.6rem;
+    }
+    .feature-container .feature-details{
+        width: 100%;
+        padding: .8rem;
+        display: flex;
+    }
+    .feature-container .feature-details .part1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature-container .feature-details .part1 .box{
+        text-align: center;
+        font-size: 1.0rem;
+    }
+    .feature-container .feature-details .part2 .box{
+        font-size: 1.0rem;
+    }
+}

@@ -1,0 +1,132 @@
+.translator-container{
+    width: 100%;
+    padding: 2rem;
+    background: rgb(236, 235, 235);
+}
+.translate-options{
+    width: 100%;
+    display: flex;
+    padding: 2rem 0;
+}
+.translate-options .option{
+    width: 20%;
+    padding: .8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: .8rem;
+    border-radius: .5rem;
+    background: white;
+    border: 2px solid rgb(188, 212, 185);
+    cursor: pointer;
+    transition: 3s all;
+}
+.translate-options .option:hover{
+    background: rgb(190, 247, 190);
+}
+.translate-options #active{
+    background: rgb(190, 247, 190);
+}
+.translate-options .option .option-icon{
+    width: 20%;
+}
+.translate-options .option .option-icon .icon{
+    font-size: 2rem;
+    color: rgb(58, 179, 68);
+}
+.translate-options .option .option-text{
+    width: 60%;
+    font-size: 1.1rem;
+}
+
+.translation-container{
+    width: 100%;
+    border-radius: .6rem;
+    background: white;
+    border: 2px solid rgb(224, 223, 223);
+}
+.translation-container .language-option{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 2px solid rgb(224, 223, 223);
+}
+.translation-container .language-option select{
+    width: 46%;
+    padding: .8rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
+.translation-container .inputs-container{
+    width: 100%;
+    display: flex;
+    border: 2px solid rgb(224, 223, 223);
+}
+.translation-container .input{
+    width: 50%;
+    height: 40vh;
+    display: block;
+    border: 2px solid rgb(224, 223, 223);
+}
+.translation-container .input textarea{
+    width: 100%;
+    height: 35vh;
+    padding: .4rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.translation-container .input ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+.translation-container .input li:first-child{
+    margin-right: auto;
+}
+.translation-container .input li{
+    margin-right: 1.5rem;
+}
+.translation-container .input .input-details{
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+.translator-container .dictionary-container{
+    width: 100%;
+    margin-top: .8rem;
+    padding: .6rem;
+    border-radius: .6rem;
+    background: white;
+    border: 2px solid rgb(224, 223, 223);
+}
+.translator-container .dictionary-container h3{
+    padding: .8rem;
+}
+.translator-container .dictionary-container .text-meaning{
+    border-top: 2px solid rgb(172, 170, 170);
+    padding: .8rem;
+}
+/* Responsiveness of the translate part */
+@media (max-width: 768px){
+    .translate-options{
+        width: 100%;
+        display: flex;
+        padding: 1.2rem 0;
+    }
+    .translate-options .option{
+        width: 30%;
+        padding: 1.2rem 0;
+    }
+    .translate-options .option .option-icon{
+        width: 20%;
+    }
+    .translate-options .option .option-text{
+        width: 60%;
+        font-size: .8rem;
+    }
+    
+}

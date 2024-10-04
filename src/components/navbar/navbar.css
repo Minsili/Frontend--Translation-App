@@ -1,0 +1,184 @@
+.navBar-container{
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+.navBar-container nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .8rem;
+}
+.navBar-container nav .logo{
+    width: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBar-container nav .logo h2{
+    color: green;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.navBar-container nav .logo .icon{
+    color: green;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.navBar-container nav ul{
+    width: 60%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+.navBar-container nav .active{
+    padding: .8rem;
+    border-radius: .6rem;
+    background: rgb(248, 242, 242);
+}
+.navBar-container nav .active a{
+    text-decoration: none;
+    color: rgb(58, 179, 68);
+    cursor: pointer;
+}
+.navBar-container nav .section a{
+    text-decoration: none;
+    color: rgb(58, 179, 68);
+    cursor: pointer;
+}
+.navBar-container nav .section:hover{
+    border-bottom: 4px solid rgb(58, 179, 68);
+}
+.navBar-container nav ul li{
+    color: rgb(58, 179, 68);
+    cursor: pointer;
+}
+.navBar-container nav .bottons{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navBar-container nav .bottons .icon{
+    font-size: 1.5rem;
+    color: rgb(209, 203, 203);
+    cursor: pointer;
+    transition: 3s all;
+}
+.navBar-container nav .bottons .icon:hover{
+    color: rgb(58, 179, 68);
+    padding: .8rem;
+    border-radius: .6rem;
+    background: rgb(240, 235, 235);
+}
+.navBar-container nav .bottons button{
+    border: none;
+    padding: .8rem 1.2rem;
+    font-size: 1.2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: 3s ease-out;
+}
+.navBar-container nav .bottons #login{
+    border: 1px solid grey;
+    background: white;
+}
+.navBar-container nav .bottons #login a{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+.navBar-container nav .bottons #login:hover{
+    border: 1px solid grey;
+    color: rgb(97, 96, 96);
+    background: rgb(223, 221, 221);
+}
+.navBar-container nav .bottons #trial{
+    color: white;
+    background: rgb(58, 179, 68);
+}
+.navBar-container nav .bottons #trial:hover{
+    color: rgb(58, 179, 68);
+    background: white;
+    border: 1px solid rgb(58, 179, 68);
+}
+.navBar-container nav .nav-icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+  /* Dropdown styles */
+  .dropdown-menu {
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none; /* Hidden by default */
+  }
+  
+  li:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+  }
+  
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+  }
+  /* Navbar responsiveness */
+  
+@media (max-width: 768px){
+    .navBar-container nav{
+        padding: 0rem;
+    }
+    .navBar-container nav .logo{
+        width: 20%;
+        margin-right: 6rem;
+    }
+    .navBar-container nav .logo h2{
+        font-size: 1.3rem;
+    }
+    .navBar-container nav .logo .icon{
+        font-size: 3rem;
+    }
+    .navBar-container nav .nav-icon{
+        width: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navBar-container nav .bottons{
+        width: 50%;
+    }
+    .navBar-container nav .bottons .icon{
+        font-size: 1.4rem;
+    }
+    .navBar-container nav .bottons button{
+        padding: .4rem 1.0rem;
+        font-size: 1.0rem;
+    }
+    .navBar-container nav .nav-links {
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: white;
+        border: 1px solid #7cdc4f;
+        position: absolute;
+        width: 450px;
+        height: 60vh;
+        top: -400px;
+        right: 0;
+        z-index: 12px;
+        transition: all .7s ease-in;
+    }
+    .navBar-container nav .nav-links.open {
+        top: 10%;
+        transition: all .3s ease-in;
+    }
+}

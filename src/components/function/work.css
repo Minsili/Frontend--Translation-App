@@ -1,0 +1,51 @@
+.function-container{
+    width: 100%;
+    background-image: url(../../assets/baily-nature.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.function-container h3{
+    font-size: 1.5rem;
+    color: rgb(32, 100, 38);
+}
+.function-container .functions{
+    background: rgba(231, 230, 230, 0.5);
+    padding: 1.4rem;
+}
+.function-container .functions .function{
+    display: flex;
+    padding: 1.4rem;
+    background: rgba(187, 186, 186, 0.5);
+    border-radius: .6rem;
+    margin-bottom: .4rem;
+}
+.function-container .functions .function h3{
+    display: flex;
+    padding: .8rem;
+    color: white;
+    background: rgba(133, 130, 130, 0.5);
+    border-radius: 1.5rem;
+    margin-right: .4rem;
+}
+.function-container .functions .function p{
+    font-size: 1.2rem;
+    color: rgb(63, 62, 62);
+}
+/* Responsiveness of the function section */
+@media (max-width: 768px){
+    .function-container .functions .function h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 6vh;
+        padding: 0.6rem;
+        border-radius: 2rem;
+        margin-right: .6rem;
+    }
+}
+

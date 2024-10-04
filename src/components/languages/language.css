@@ -1,0 +1,26 @@
+.language-container{
+    width: 100%;
+    background: rgb(236, 235, 235);
+    padding: 2rem;
+}
+.language-container h3{
+    font-size: 1.5rem;
+    color: rgb(58, 179, 68);
+}
+.language-container ul{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    list-style: none;
+    display: flex;
+    margin-left: .8rem;
+}
+.language-container ul li{
+    margin-right: 2rem;
+    color: rgb(39, 71, 42);
+}
+/* Responsiveness of the languages section */
+@media (max-width: 768px){
+    .language-container{
+        padding:  1.0rem 2rem;
+    }
+}

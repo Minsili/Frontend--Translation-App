@@ -1,0 +1,31 @@
+.participate-container{
+    width: 100%;
+    background: rgb(236, 235, 235);
+    padding: 2rem;
+
+}
+.participate-container .part-container{
+    width: 100%;
+    background: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .6rem;
+}
+.participate-container .part-container p{
+    font-size: 1.3rem;
+    margin-left: 1.2rem;
+}
+.participate-container .part-container a{
+    color: rgb(58, 179, 68);
+}
+.participate-container .part-container .icon{
+    font-size: 1.8rem;
+}
+/* Responsiveness of the participation section */
+@media (max-width: 768px){
+    .participate-container .part-container p{
+        font-size: 1.0rem;
+    }
+}
