@@ -1,7 +1,7 @@
 import React from 'react';
 import './login.css';
 import { Link } from "react-router-dom";
-import email_icon from '../../Assets/email.png'
+import email_icon from '../../assets/email.png'
 import password_icon from '../../assets/password.png'
 import google from '../../assets/google.png'
 import facebook from '../../assets/facebook.png'
