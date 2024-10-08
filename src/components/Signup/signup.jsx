@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './signup.css';
 
-import user_icon from '../../Assets/person.png'
-import email_icon from '../../Assets/email.png'
-import password_icon from '../../Assets/password.png'
-import google from '../../Assets/google.png'
-import facebook from '../../Assets/facebook.png'
-import insta from '../../Assets/instagram.png'
+import user_icon from '../../assets/person.png'
+import email_icon from '../../assets/email.png'
+import password_icon from '../../assets/password.png'
+import google from '../../assets/google.png'
+import facebook from '../../assets/facebook.png'
+import insta from '../../assets/instagram.png'
 
 import { Link } from 'react-router-dom';
 
