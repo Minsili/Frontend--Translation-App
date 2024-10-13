@@ -21,15 +21,7 @@ const Prices = () => {
                 <ul>
                     <li>
                         <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon free'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                    </li>
-                    <li>
-                        <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon free'/></i>
-                        Lorem ipsum dolor sit amet consectetur .
-                    </li>
-                    <li>
-                        <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon free'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
+                        Translate up to 500 words per day.
                     </li>
                 </ul>
             </div>
@@ -52,15 +44,15 @@ const Prices = () => {
                 <ul>
                     <li>
                         <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon starter'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
+                        Unlimited words translation.
                     </li>
                     <li>
                         <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon starter'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
+                        Upload files for translation.
                     </li>
                     <li>
                         <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon starter'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
+                        Speech-to-text translation, etc.
                     </li>
                 </ul>
             </div>
@@ -80,20 +72,7 @@ const Prices = () => {
             </div>
             <div className="plan-details">
                 <p>Starter plan plus,</p>
-                <ul>
-                    <li>
-                        <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon team'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                    </li>
-                    <li>
-                        <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon team'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                    </li>
-                    <li>
-                        <i><FontAwesomeIcon icon={faCircleCheck} className='check-icon team'/></i>
-                        Lorem ipsum dolor sit amet consectetur.
-                    </li>
-                </ul>
+                
             </div>
 
             <div className="choose-btn">

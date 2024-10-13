@@ -5,7 +5,7 @@
 }
 .contact-container{
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     display: block;
     padding: .8rem;
     background: var(--contact-bgColor);
@@ -126,7 +126,7 @@
 
 @media only screen and (max-width: 800px){
     .contact-container{
-        height: 126vh;
+        height: 145vh;
         padding: .2rem;
     }
     .contact-container .contact-body{
@@ -140,13 +140,14 @@
     }
     .contact-body .col1 .row1{
         width: 100%;
+        display: block;
         padding: 0rem;
     }
     .contact-body .col1 .row1 .photo{
-        width: 30%;
+        width: 50%;
     }
     .contact-body .col1 .row1 .note{
-        width: 65%;
+        width: 90%;
         margin-left: .9rem;
     }
     .contact-body .col1 .row1 .note h3{
@@ -155,6 +156,11 @@
     .contact-body .col1 .row1 .note p, ol{
         font-size: .9rem;
         margin-bottom: .3rem;
+    }
+    .contact-body .col1 .row2 .send-btn button{
+        padding: .4rem;
+        font-size: 1.3rem;
+
     }
 }
 @media only screen and (max-width: 600px){

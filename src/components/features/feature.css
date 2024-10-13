@@ -61,6 +61,7 @@
 @media (max-width: 768px){
     .feature-container{
         display: block;
+        padding: .8rem 2rem;
     }
     .feature-container .feature-header{
         width: 100%;
@@ -83,8 +84,10 @@
     .feature-container .feature-details .part1 .box{
         text-align: center;
         font-size: 1.0rem;
+        width:  95%;
     }
     .feature-container .feature-details .part2 .box{
         font-size: 1.0rem;
+        width:  95%;
     }
 }

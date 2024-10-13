@@ -130,3 +130,34 @@
     }
     
 }
+
+@media (max-width: 648px){
+    .translator-container{
+        padding-top: .6rem;
+    }
+    .translation-container .language-option select{
+        width: 45%;
+        font-size: 1.2rem;
+    }
+    .translate-options{
+        padding: .8rem 0;
+    }
+    .translate-options .option{
+        width: 23%;
+        padding: .8rem 0;
+    }
+    .translate-options .option .option-icon{
+        width: 18%;
+    }
+    .translate-options .option .option-text{
+        display: none;
+    }
+    .translation-container .inputs-container{
+        display: block;
+        border: 1px solid rgb(224, 223, 223);
+    }
+    .translation-container .input{
+        width: 100%;
+    }
+    
+}

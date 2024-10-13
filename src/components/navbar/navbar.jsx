@@ -60,12 +60,14 @@ const Navbar = () => {
 
           <li className='section'><a href="#work">How it works?</a></li>
           <li className='section'><a href="#pricing">Pricing</a></li>
+
+          <div className="bottons">
+            <i><FontAwesomeIcon icon={faLightbulb} className='icon' /></i>
+            <button id='login'><Link to="/login">Login</Link></button>
+            <button id='trial'>Start free trial</button>
+          </div>
         </ul>
-        <div className="bottons">
-          <i><FontAwesomeIcon icon={faLightbulb} className='icon' /></i>
-          <button id='login'><Link to="/login">Login</Link></button>
-          <button id='trial'>Start free trial</button>
-        </div>
+        
         {/* Menu option */}
         <div className='nav-icon' onClick={toggleMenu}>
           <FaBars/>

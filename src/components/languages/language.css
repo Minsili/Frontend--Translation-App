@@ -23,4 +23,11 @@
     .language-container{
         padding:  1.0rem 2rem;
     }
+    .language-container h3{
+        font-size: 1.3rem;
+    }
+    .language-container ul{
+        margin-top: 1.0rem;
+        font-size: 1.0rem;
+    }
 }

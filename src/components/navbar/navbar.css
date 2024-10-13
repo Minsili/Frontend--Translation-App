@@ -25,7 +25,7 @@
     font-size: 2rem;
 }
 .navBar-container nav ul{
-    width: 60%;
+    width: 80%;
     list-style: none;
     align-items: center;
     display: flex;
@@ -56,6 +56,7 @@
 }
 .navBar-container nav .bottons{
     width: 30%;
+    margin-left: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -64,13 +65,10 @@
     font-size: 1.5rem;
     color: rgb(209, 203, 203);
     cursor: pointer;
-    transition: 3s all;
+    transition: 3s ease-out;
 }
 .navBar-container nav .bottons .icon:hover{
     color: rgb(58, 179, 68);
-    padding: .8rem;
-    border-radius: .6rem;
-    background: rgb(240, 235, 235);
 }
 .navBar-container nav .bottons button{
     border: none;
@@ -136,11 +134,11 @@
   
 @media (max-width: 768px){
     .navBar-container nav{
-        padding: 0rem;
+        padding: 0.2rem 0;
     }
     .navBar-container nav .logo{
         width: 20%;
-        margin-right: 6rem;
+        margin-right: 12rem;
     }
     .navBar-container nav .logo h2{
         font-size: 1.3rem;
@@ -168,14 +166,18 @@
         flex-direction: column;
         justify-content: space-evenly;
         background-color: white;
-        border: 1px solid #7cdc4f;
+        border: 1px solid #e6e7e6;
+        border-radius: .8rem;
         position: absolute;
-        width: 450px;
+        width: 90%;
         height: 60vh;
-        top: -400px;
+        top: -800px;
         right: 0;
         z-index: 12px;
         transition: all .7s ease-in;
+    }
+    .navBar-container nav .section {
+        width: 80%;
     }
     .navBar-container nav .nav-links.open {
         top: 10%;

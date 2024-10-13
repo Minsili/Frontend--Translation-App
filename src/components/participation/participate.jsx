@@ -8,7 +8,7 @@ const Participate = () => {
   return (
     <div className='participate-container'>
       <div className="part-container">
-        <i><FontAwesomeIcon icon={faHandHoldingHeart} style={{color: "#ff3d5a", fontSize: "3rem"}}/></i>
+        <i><FontAwesomeIcon icon={faHandHoldingHeart} style={{color: "#ff3d5a"}} className='icon'/></i>
         <p>
           Do you want to participate by helping us to add a new Cameroonian language?
           Just <Link to="/contact">Contact Us</Link> here!

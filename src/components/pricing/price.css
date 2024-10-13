@@ -18,7 +18,7 @@
     background: rgb(210, 241, 216);
 }
 .pricing-container .prices-container .price{
-    width: 30%;
+    width: 28%;
     padding: 1.2rem;
     border-radius: .8rem;
     border: 2px solid rgb(216, 213, 213);
@@ -104,7 +104,7 @@
 .prices-container .choose-btn #free-Btn:hover{
     color: #FFD43B;
     background: white;
-    border: 4px solid #FFD43B;
+    border: 2px solid #FFD43B;
 }
 
 .prices-container .choose-btn #starter-Btn{
@@ -114,7 +114,7 @@
 .prices-container .choose-btn #starter-Btn:hover{
     color: #63E6BE;
     background: white;
-    border: 4px solid #63E6BE;
+    border: 2px solid #63E6BE;
 }
 
 .prices-container .choose-btn #team-Btn{
@@ -124,10 +124,13 @@
 .prices-container .choose-btn #team-Btn:hover{
     color: #74C0FC;
     background: white;
-    border: 4px solid #74C0FC;
+    border: 2px solid #74C0FC;
 }
 /* Responsiveness of the pricing section */
 @media (max-width: 768px){
+    .pricing-container h3{
+        font-size: 1.8rem;
+    }
     .pricing-container .prices-container{
         display: block;
     }
@@ -135,6 +138,7 @@
         margin: 1.0rem 0;
     }
     .pricing-container .prices-container .price{
-        width: 100%;
+        width: 80%;
+        margin-left: 3rem;
     }
 }

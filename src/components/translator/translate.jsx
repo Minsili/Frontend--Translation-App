@@ -63,7 +63,7 @@ const Translate = () => {
             </div>
 
             <div className="input">
-                <textarea name="" id="" placeholder='Traduction here..'></textarea>
+                <textarea name="" id="" placeholder='Traduction here..' readOnly></textarea>
                 <div className="input-details">
                     <ul>
                         <li><FontAwesomeIcon icon={faVolumeHigh} /></li>

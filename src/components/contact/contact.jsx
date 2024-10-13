@@ -40,15 +40,15 @@ const Contact = () => {
                     <form action="">
                         <div className="input">
                             <label htmlFor="name">Your Name</label><br/>
-                            <input type="text" name='name' required />
+                            <input type="text" name='name' placeholder='Enter your name' required />
                         </div>
                         <div className="input">
                             <label htmlFor="email">Your Email</label><br/>
-                            <input type="email" name='email' required />
+                            <input type="email" name='email' placeholder='Enter your email address' required />
                         </div>
                         <div className="input">
                             <label htmlFor="message">Your Message</label><br/>
-                            <textarea rows={3} cols={8}></textarea>
+                            <textarea rows={3} cols={8} placeholder='Type your message here..'></textarea>
                         </div>
 
                         <div className="send-btn">
